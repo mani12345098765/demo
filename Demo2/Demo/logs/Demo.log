@@ -1,0 +1,35 @@
+2022-08-08 12:03:26,716 INFO u.DbConn:33 [main] setInfo () : Enter 
+2022-08-08 12:03:26,731 INFO u.DbConn:41 [main] Query executed ::: null
+2022-08-08 12:03:26,910 FATAL u.DbConn:57 [main] EXCEPTION in database ::  
+java.sql.SQLException: SQL String can not be NULL
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:545) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:505) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:479) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.PreparedStatement.<init>(PreparedStatement.java:804) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.PreparedStatement.getInstance(PreparedStatement.java:754) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.ConnectionImpl.clientPrepareStatement(ConnectionImpl.java:1059) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:3155) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:3062) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at utils.DbConn.setInfo(DbConn.java:43) [classes/:?]
+	at utils.DbConn.main(DbConn.java:79) [classes/:?]
+2022-08-08 12:05:46,834 INFO u.DbConn:33 [main] setInfo () : Enter 
+2022-08-08 12:05:46,856 INFO u.DbConn:41 [main] Query executed ::: null
+2022-08-08 12:05:47,280 FATAL u.DbConn:55 [main] EXCEPTION in database ::  
+java.sql.SQLException: SQL String can not be NULL
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:545) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:505) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:479) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.PreparedStatement.<init>(PreparedStatement.java:804) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.PreparedStatement.getInstance(PreparedStatement.java:754) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.ConnectionImpl.clientPrepareStatement(ConnectionImpl.java:1059) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:3155) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:3062) ~[mysql-connector-java-6.0.6.jar:6.0.6]
+	at utils.DbConn.setInfo(DbConn.java:43) [classes/:?]
+	at utils.DbConn.main(DbConn.java:77) [classes/:?]
+2022-08-08 12:06:13,397 INFO u.DbConn:33 [main] setInfo () : Enter 
+2022-08-08 12:06:13,417 INFO u.DbConn:42 [main] Query executed ::: select * from master_data where mobile_phone = ?
+2022-08-08 12:06:22,495 INFO u.DbConn:33 [main] setInfo () : Enter 
+2022-08-08 12:06:22,520 INFO u.DbConn:42 [main] Query executed ::: select * from master_data where mobile_phone = ?
+2022-08-08 12:06:22,815 INFO u.DbConn:51 [main] No Id Found
